@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+  }
+  .heading {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 10px;
+    font-size: 50px;
+    font-family: "Comic Neue", cursive;
+  }
+  .container {
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .container img {
+    margin: 20px;
+    width: 100%;
+    height: 80vh;
+    width: 700px;
+    object-fit: cover;
+
+    border-radius: 26px;
+  
+  }
+  .img{
+   height: 400px;
+  }
+  
+  .container img:hover {
+    transform: scale(1.01);
+  }
+  
+  .not-active {
+    display: none;
+  }
+  
+  #prev,
+  #next {
+    padding: 20px;
+    transform: translateY(-25%);
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-size: 80px;
+    user-select: none;
+    margin: 60px;
+    border-radius: 50%;
+  }
+  
+
+  #prev:hover,
+  #next:hover {
+    /* transform: translate(-5px, 0); */
+    color: rgb(226, 128, 123);
+  }
+  
