@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+    font-family:monospace;
+    color: brown;
+    
+}
+.one,.two,.three{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: blueviolet;
+}
+.two,.three{
+    margin-top: 20px;
+    color: dodgerblue;
+}
